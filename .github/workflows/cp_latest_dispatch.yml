@@ -14,23 +14,23 @@ on:
       patch-server-port:
         description: 'Patch server port (useful for resolving port conflicts)"'
         required: true
-        default: '5678'
+        default: '9999'
       patch-user-email:
         description: 'Fake registered email (for fake FE account)'
         required: true
-        default: 'long@telerik.com'
+        default: 'phambao281005@gmail.com'
       patch-user-firstName:
         description: 'Fake registered first name (for fake FE account)'
         required: true
-        default: 'Long'
+        default: 'Azure'
       patch-user-lastName:
         description: 'Fake registered last name (for fake FE account)'
         required: true
-        default: 'Wang'
+        default: 'Abalone'
       patch-user-country-code:
         description: 'Fake registered country code (for fake FE account) ; Ex: 86'
         required: true
-        default: '86'
+        default: '84'
       patch-user-provider:
         description: 'Fake registered provider (for fake FE account) ; Ex: Google'
         required: true
